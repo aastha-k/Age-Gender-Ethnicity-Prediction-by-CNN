@@ -1,16 +1,38 @@
-# Age-Gender-Ethnicity-Prediction-by-CNN
+#Age, Gender, and Ethnicity Prediction Using CNN
+This project focuses on developing a robust Convolutional Neural Network (CNN) model capable of accurately predicting demographic attributes such as age, gender, and ethnicity from facial images. This was undertaken as part of the DA322M Mini Project.
 
-Using CNN to predict the age, gender and ethnicity of a person by using an image of their face. Model was trained on UTKFace dataset. Frameworks used are Tensorflow and OpenCV. 
+###Introduction
+In the rapidly evolving field of computer vision, accurately predicting demographic attributes such as age, gender, and ethnicity from images has become crucial. Leveraging the power of CNNs, this project aims to advance our understanding and utilization of these attributes in diverse real-world applications.
 
-First, I loaded the dataset and plotted graphs according to the 3 parameters I will be predicting. I divided age into segments based on the number of people in every age group. Then, for building a neural network, I categorized the target values for each parameter in accordance to how they were saved in the dataset filenames initially. I split the dataset into train and test and built a function to build a model. Using this function I created separate models to predict age, gender and ethnicity and then trained and tested them.
+###Motivation
+Understanding CNN architectures in depth allows for the development of models that can significantly enhance personalization, user experience, and provide valuable insights for various sectors such as marketing, security, and social sciences.
 
-I received the following loss and accuracy statistics for each model:
-- Ethnicity:
-  - Test loss: 0.768933892250061
-  - Test Accuracy: 0.7335489392280579
-- Age:
-  - Test loss: 1.028923511505127
-  - Test Accuracy: 0.6709786057472229
-- Gender:
-  - Test loss: 0.2686367332935333
-  - Test Accuracy: 0.8935601711273193
+###Applications
+Marketing and Advertising: Tailor campaigns to resonate with specific demographics.
+Security and Surveillance: Enhance identification in surveillance systems.
+Social Sciences: Provide valuable insights into human behavior across demographic groups.
+
+###Objectives
+Develop a Robust Model: Design and implement a CNN architecture capable of accurately predicting age, gender, and ethnicity from images.
+Evaluation and Optimization: Evaluate and optimize the model using appropriate metrics.
+Integrate Image Upload Feature: Enable users to upload a picture and see the model’s predictions.
+
+###Methodology
+Data Preprocessing: Images are converted to grayscale and resized to 48x48 pixels.
+Model Training: The CNN is trained on a large dataset with 70% of the data allocated for training and 30% for testing.
+Performance Metrics: The model's performance is measured using loss and accuracy for each demographic category.
+
+###Data
+Dataset: We used a preprocessed version of the UTKFace dataset with over 20,000 images, spanning 5 ethnicities, 2 genders, and ages ranging from 0 to 116.
+
+###Results
+Ethnicity Prediction: Test loss: 0.678522 | Test Accuracy: 76.45%
+Age Prediction: Test loss: 0.628796 | Test Accuracy: 75.84%
+Gender Prediction: Test loss: 0.270137 | Test Accuracy: 88.95%
+
+###Summary
+The project successfully developed a CNN model that accurately predicts age, gender, and ethnicity from facial images. The model's efficiency and accuracy demonstrate the potential of CNNs in automated demographic analysis, with applications ranging from demographic research to personalized user experiences.
+
+###Contributors
+Aastha Khandelwal (210123003)
+Shivam Garg (210101098)
