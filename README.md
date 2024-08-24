@@ -1,5 +1,5 @@
 # Age, Gender, and Ethnicity Prediction Using CNN
-This project focuses on developing a robust Convolutional Neural Network (CNN) model capable of accurately predicting demographic attributes such as age, gender, and ethnicity from facial images. This was undertaken as part of the DA322M Mini Project.
+This project focuses on developing a robust Convolutional Neural Network (CNN) model capable of accurately predicting demographic attributes such as age, gender, and ethnicity from facial images. This was undertaken as part of the DA322M Project.
 
 ### Introduction
 In the rapidly evolving field of computer vision, accurately predicting demographic attributes such as age, gender, and ethnicity from images has become crucial. Leveraging the power of CNNs, this project aims to advance our understanding and utilization of these attributes in diverse real-world applications.
